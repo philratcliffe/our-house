@@ -10,7 +10,7 @@ class HomePage(Page):
     max_count = 1
 
     banner_title = models.CharField(max_length=128, blank=False)
-    banner_subtitle = RichTextField(featues=["bold", "italic"])
+    banner_subtitle = RichTextField(features=["bold", "italic"])
 
     content_panels = Page.content_panels + [
         FieldPanel("banner_title")
