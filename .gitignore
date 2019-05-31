@@ -42,3 +42,6 @@ Desktop.ini
 #VSCode
 *.code-workspace
 .vscode
+
+# wagtail
+media

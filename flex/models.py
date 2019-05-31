@@ -1,6 +1,6 @@
 from django.db import models
 
-from wagtail.core.model import Page
+from wagtail.core.models import Page
 from wagtail.admin.edit_handlers import FieldPanel
 
 # Create your models here.
