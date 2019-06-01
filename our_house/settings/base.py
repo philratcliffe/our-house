@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'flex',
+    'streams',
     'django_extensions',
 
     'wagtail.contrib.forms',
